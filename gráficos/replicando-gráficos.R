@@ -15,6 +15,11 @@ dados <- data.frame(horas = horas) |>
   dplyr::mutate(
     horas = dplyr::if_else(horas >= 24, horas - 24, horas)
   )
+View(dados)
+
+
+# Rótulos a serem destacados
+rotulos_destacados <- c(3, 9, 15, 21)
 
 # Crie um histograma usando ggplot2
 ggplot(dados, aes(x = horas)) +
@@ -28,7 +33,7 @@ ggplot(dados, aes(x = horas)) +
   scale_y_continuous(
     breaks = c(seq(0, 10, 2), 12),
     labels = c(seq(0, 10, 2), "12 jogos")
-  )+
+  ) +
   theme(
     panel.grid.major.y = element_line(
       linewidth = .5,
@@ -41,8 +46,20 @@ ggplot(dados, aes(x = horas)) +
       ),
     panel.grid.minor = element_blank(),
     panel.grid.minor.x = element_blank(),
-    panel.grid = element_blank()
+    panel.grid = element_blank(),
+    # axis.text.x = element_text(
+    #   color = ifelse(dados$horas %in% rotulos_destacados, "red", "black"),
+    #   face = ifelse(dados$horas %in% rotulos_destacados, "bold", "normal")
+    # ),
   )
+
+
+
+
+
+
+
+
 
 
 

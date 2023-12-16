@@ -231,6 +231,8 @@ ggplot(data = df, aes(x = Class, fill = StudyTime)) +
     # pattern_density = 0.1,
     pattern_spacing = 0.075,
     pattern_key_scale_factor = 0.6
-  ) +
+  )
+
+
   scale_fill_brewer(palette = "Set1", guide = guide_legend(title = "Study Time")) +
   scale_color_brewer(palette = "Set1", guide = guide_legend(title = "Study Time"))

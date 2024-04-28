@@ -5,7 +5,7 @@ Variáveis: Qualitativas (categóricas) e Quantitativas.
 Uso: Compara valores quantitativos para diferentes categorias qualitativas.
 ```{r}
 # Instale o pacote ggplot2 se ainda não estiver instalado
-# install.packages("ggplot2")
+#  install.packages("tidyverse")
 
 # Carregue o pacote ggplot2
 library(ggplot2)
@@ -24,6 +24,7 @@ ggplot(dados, aes(x = Categoria, y = Valor, fill = Categoria)) +
        y = "Valor") +
   theme_minimal()
 ```
+
 ## Colunas Agrupadas
 ```{r}
 # Instale o pacote ggplot2 se ainda não estiver instalado

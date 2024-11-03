@@ -35,8 +35,6 @@ ggplot
     └───teste/
 ```
 ## Referências
+- **Python and R Tips: Learn Data Science with Python and R**. Blog da cmdlinetips, 2024. Disponível em: <https://cmdlinetips.com/?amp>. Acesso em: 3 nov. 2024.
 
-- [cmdlinetips](https://cmdlinetips.com/?amp)
-- [cedricscherer](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/)
-
-
+- SCHERER, Cedric. **A ggplot2 tutorial for beautiful plotting in R**. Cedric Scherer, 5 ago. 2019. Disponível em: <https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/>. Acesso em: 3 nov. 2024.

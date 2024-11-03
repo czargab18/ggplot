@@ -1,14 +1,3 @@
-install.packages('ggplot2')
-install.packages('ggrepel')
-install.packages("ggtext")
-install.packages("ggsci")
-install.packages("ggpattern")
-install.packages("ggpage")
-install.packages("ggwordcloud")
-install.packages("ggQC")
-install.packages("ggmapinset")
-install.packages("ggflowchart")
-install.packages("gghighlight")
-install.packages("ggforce")
-install.packages("ggplot2_extensions")
-devtools::install_github("thomasp85/ggforce")
+version https://git-lfs.github.com/spec/v1
+oid sha256:00613be4baf649223c9e09e7d258235aab90744f6352abad2bc75888108bc34b
+size 443

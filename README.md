@@ -33,7 +33,7 @@ ggplot
     ├───resto/
     ├───resultado/
     └───teste/
-    ```
+```
 ## Referências
 
 - [cmdlinetips](https://cmdlinetips.com/?amp)

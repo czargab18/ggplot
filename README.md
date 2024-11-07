@@ -4,13 +4,8 @@ Este repositório tem como objetivo aprimorar habilidades na criação de gráfi
 
 Portfólio, treinamento e aperfeiçoamento de gráficos feitos com pacote [`ggplot2`](https://github.com/tidyverse/ggplot2).
 
-Estruturas das Pastas
 
-- base: contém os conjuntos de dados.
-- code: contém os códigos para gerar os gráficos.
-- resultados: contém o resultado final dos gráficos.
-
-# Estrutura do Repositório ggplot
+# Estrutura do Repositório
 
 ```
 ggplot
